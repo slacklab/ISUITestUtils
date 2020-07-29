@@ -9,7 +9,7 @@
 import XCTest
 
 /// Base class for modal tests, which not restart app between tests: needed add app.launch to first test
-class ISBaseModalClassXCUITest: XCTestCase {
+open class ISBaseModalClassXCUITest: XCTestCase {
     static let current = ISBaseModalClassXCUITest()
     
     // runs before all test methods

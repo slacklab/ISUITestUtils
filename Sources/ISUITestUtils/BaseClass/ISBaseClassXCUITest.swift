@@ -10,7 +10,7 @@ import XCTest
 
 let app = XCUIApplication()
 
-public class ISBaseClassXCUITest: XCTestCase {
+open class ISBaseClassXCUITest: XCTestCase {
         
     public override func setUp() {
         continueAfterFailure = false
